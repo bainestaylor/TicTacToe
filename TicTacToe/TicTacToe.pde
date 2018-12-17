@@ -21,6 +21,7 @@ int numberOfBoardPieces = 9;
 String[] boardPiece = new String[numberOfBoardPieces];
 String[] onlyXPiece = new String[numberOfBoardPieces];
 String[] onlyOPiece = new String[numberOfBoardPieces];
+String[] pieces;
 PFont levelFont, xoFont, playerFont, scoreFont;
 String easy = "Easy", medium = "Medium", hard = "Hard", reset = "Reset", x = "X", o = "O";
 int xWin = 0, oWin = 0, count = 0, position = 0;
