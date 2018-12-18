@@ -11,7 +11,6 @@ void click() {
     text("X", width*13/96, height*15/48, width*7/24, height*5/24);
     XO = 'O';
     s1 = 'X'; 
-    pieces[0] = "X";
     
   } else if (mouseX>=width*1/48 && mouseX<=width*15/48 && mouseY>=height*13/48 && mouseY<=height*23/48 && XO == 'O' && s1 == 'n') {
     fill(255, 0, 0);
@@ -19,7 +18,6 @@ void click() {
     text("O", width*12/96, height*15/48, width*7/24, height*5/24);
     XO = 'X';
     s1 = 'O';
-    pieces[0] = "O";
     
   }
 
@@ -30,7 +28,7 @@ void click() {
     text("X", width*45/96, height*5/16, width*7/24, height*5/24);
     XO = 'O';
     s2 = 'X';
-    pieces[1] = "X";
+
     
   } else if (mouseX>=width*17/48 && mouseX<=width*15/24 && mouseY>=height*7/24 && mouseY<=height*23/48 && XO == 'O' && s2 == 'n') {
     fill(255, 0, 0);
@@ -38,7 +36,7 @@ void click() {
     text("O", width*44/96, height*15/48, width*7/24, height*5/24);
     XO = 'X';
     s2 = 'O';
-    pieces[1] = "O";
+
     
   }
 
@@ -49,7 +47,6 @@ void click() {
     text("X", width*77/96, height*15/48, width*7/24, height*5/24);
     XO = 'O';
     s3 = 'X';
-    pieces[2] = "X";
    
   } else if (mouseX>=width*11/16 && mouseX<=width*15/12 && mouseY>=height*4/12 && mouseY<=height*23/48 && XO == 'O' && s3 == 'n') {
     fill(255, 0, 0);
@@ -57,7 +54,6 @@ void click() {
     text("O", width*77/96, height*15/48, width*7/24, height*5/24);
     XO = 'X';
     s3 = 'O';
-    pieces[2] = "O";
     
   }
 
@@ -68,7 +64,6 @@ void click() {
     text("X", width*13/96, height*27/48, width*7/24, height*5/24);
     XO = 'O';
     s4 = 'X';
-    pieces[3] = "X";
     
   } else if (mouseX>=width*1/48 && mouseX<=width*15/48 && mouseY>=height*25/48 && mouseY<=height*35/48 && XO == 'O' && s4 == 'n') {
     fill(255, 0, 0);
@@ -76,7 +71,6 @@ void click() {
     text("O", width*13/96, height*27/48, width*7/24, height*5/24);
     XO = 'X';
     s4 = 'O';
-    pieces[3] = "O";
   
   }
 
@@ -87,7 +81,6 @@ void click() {
     text("X", width*45/96, height*27/48, width*7/24, height*5/24);
     XO = 'O';
     s5 = 'X';
-    pieces[4] = "X";
    
   } else if (mouseX>=width*17/48 && mouseX<=width*15/24 && mouseY>=height*25/48 && mouseY<=height*35/48 && XO == 'O' && s5 == 'n') {
     fill(255, 0, 0);
@@ -95,7 +88,6 @@ void click() {
     text("O", width*44/96, height*27/48, width*7/24, height*5/24);
     XO = 'X';
     s5 = 'O';
-    pieces[4] = "O";
     
   }
 
@@ -106,7 +98,6 @@ void click() {
     text("X", width*77/96, height*27/48, width*7/24, height*5/24);
     XO = 'O';
     s6 = 'X';
-    pieces[5] = "X";
   
   } else if (mouseX>=width*11/16 && mouseX<=width*15/12 && mouseY>=height*25/48 && mouseY<=height*35/48 && XO == 'O' && s6 == 'n') {
     fill(255, 0, 0);
@@ -114,7 +105,6 @@ void click() {
     text("O", width*77/96, height*27/48, width*7/24, height*5/24);
     XO = 'X';
     s6 = 'O';
-    pieces[5] = "O";
 
   }
 
@@ -125,7 +115,6 @@ void click() {
     text("X", width*13/96, height*39/48, width*7/24, height*5/24);
     XO = 'O';
     s7 = 'X';
-    pieces[6] = "X";
   
   } else if (mouseX>=width*1/48 && mouseX<=width*15/48 && mouseY>=height*37/48 && mouseY<=height*47/48 && XO == 'O' && s7 == 'n') {
     fill(255, 0, 0);
@@ -133,7 +122,6 @@ void click() {
     text("O", width*13/96, height*39/48, width*7/24, height*5/24);
     XO = 'X';
     s7 = 'O';
-    pieces[6] = "O";
    
   }
 
@@ -144,7 +132,6 @@ void click() {
     text("X", width*45/96, height*39/48, width*7/24, height*5/24);
     XO = 'O';
     s8 = 'X';
-    pieces[7] = "X";
  
   } else if (mouseX>=width*17/48 && mouseX<=width*15/24 && mouseY>=height*37/48 && mouseY<=height*47/48 && XO == 'O' && s8 == 'n') {
     fill(255, 0, 0);
@@ -152,7 +139,6 @@ void click() {
     text("O", width*44/96, height*39/48, width*7/24, height*5/24);
     XO = 'X';
     s8 = 'O';
-    pieces[7] = "O";
  
   }
 
@@ -163,7 +149,6 @@ void click() {
     text("X", width*77/96, height*39/48, width*7/24, height*5/24);
     XO = 'O';
     s9 = 'X';
-    pieces[8] = "X";
   
   } else if (mouseX>=width*11/16 && mouseX<=width*15/12 && mouseY>=height*37/48 && mouseY<=height*47/48 && XO == 'O' && s9 == 'n') {
     fill(255, 0, 0);
@@ -171,7 +156,6 @@ void click() {
     text("O", width*77/96, height*39/48, width*7/24, height*5/24);
     XO = 'X';
     s9 = 'O';
-    pieces[8] = "O";
    
   }
 
