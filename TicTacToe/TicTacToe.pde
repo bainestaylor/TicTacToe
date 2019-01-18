@@ -15,7 +15,7 @@ color regButton = blue;
 String quit= "Quit";
 String restart = "Restart";
 
-Boolean[] noDraw = new Boolean[9]; //Turn off ablity to draw an X or an O in a sqaure of the board
+Boolean[] noDraw = new Boolean[9]; 
 color green = #00FF1F;
 int numberOfBoardPieces = 9;
 String[] boardPiece = new String[numberOfBoardPieces];
@@ -52,7 +52,7 @@ void mouseClicked() {
   click();
   check3();
   emhMC();
-  if (winX == true || winO == true) { //Example of empty-IF, stops code from running when Boolean triggered
+  if (winX == true || winO == true) {
   } else {
     println("Position:", position, "Count:", count);
   }
